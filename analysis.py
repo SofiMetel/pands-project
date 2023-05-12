@@ -142,7 +142,7 @@ plt.savefig('images/iris_hist_sepallenght.png') #save plot
 plt.show() #show the histogram
 
 iris['sepal_width'].hist(bins=30) #plot the histogram of sepal_width
-plt.title('Histogram of sepal_width') #title of histogram
+plt.title('Histogram of sepal width') #title of histogram
 plt.xlabel('Sepal width in cm') #x axis label
 plt.ylabel('Number of sample') #y axis label
 plt.savefig('images/iris_hist_sepal_width.png') #save plot
@@ -166,6 +166,7 @@ plt.show() #show the histogram
 
 
 iris.hist() #histogram plot for all variables
+plt.title('Histogram for all variables') #title of histogram
 plt.savefig('images/iris_main_hist.png')  # save plot
 plt.show() #show plot
 
@@ -219,3 +220,6 @@ plt.title("Iris Petal Length / Sepal Width")
 plt.savefig('images/scatter_petal_lenghtvssepal_width_allclasses.png')  # save plot
 plt.legend(["Iris-setosa", "Iris-versicolor", 'Iris-virginica'])
 plt.show() #show scatter plot
+
+
+

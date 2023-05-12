@@ -15,9 +15,8 @@
 
     4.3.[Scatter plots of each pair of variable](#4.3.-scatter-plots-of-each-variable)
 
-5. [Additional analysis](#5.-additional-analysis)
-6. [Summary and Conclusions](#6.-summary-and-conclusions)
-7. [References](#7.-references)
+5. [Summary and Conclusions](#5.-summary-and-conclusions)
+6. [References](#6.-references)
 
 
 
@@ -158,12 +157,35 @@ in file analysis.txt next information can be found:
 # 4.2. Histograms of each variable as .png 
 <a name="4.2.-histogram-of-each-variable-as-png"></a>
 
+All plots saved to folder images as .png files
+
+Plots that are created shows :
+1.Histogram of sepal lenght
+
+2. Histogram of sepal width
+3. Histogram of petal lenght
+4. Histogram of petal width
+
+5. Histogram for all variables
+
+
+
 # 4.3. Scatter plots of each pair of variable
 <a name="4.3.-scatter-plots-of-each-variable"></a>
 
-# 5. Additional analysis<a name="#5.-additional-analysis"></a>
-# 6. Summary and Conclusions<a name="#6.-summary-and-conclusions"></a>
-# 7. References <a name="#7.-references"></a>
+colours of dots mark different classes 
+6. Scatter plot - Iris petal sizes
+7. Scatter plot - Iris sepal sizes
+8. Scatter plot - Iris sepal width\petal lenght 
+9. Scatter plot - Iris petal width\sepal lenght
+
+
+
+# 5. Summary and Conclusions<a name="#5.-summary-and-conclusions"></a>
+
+
+
+# 6. References <a name="#6.-references"></a>
 
 - Website: [Python 3 documentation](https://docs.python.org/3/index.html) Official Python 3 Documentation at <https://docs.python.org>
 - Website: [Getting Started with pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html) Official `pandas` tutorial  at <https://pandas.pydata.org>
