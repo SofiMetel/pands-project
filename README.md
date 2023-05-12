@@ -47,7 +47,7 @@ but rather to present your code and its output to them.
 # 2. The Fisher Iris Data Set Research Online
 <a name="2.-the-fisher-iris-dataset"></a>
 
-The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Fisher's paper was published in the Annals of Eugenics and includes discussion of the contained techniques' applications to the field of phrenology.[1] https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Fisher's paper was published in the Annals of Eugenics and includes discussion of the contained techniques' applications to the field of phrenology.[Wikipedia page about dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5)
 
 The Iris dataset is a popular dataset used in machine learning and data science. It consists of 150 observations of iris flowers, with 50 observations for each of the three species - Setosa, Versicolor, and Virginica. The dataset includes four features - sepal length, sepal width, petal length, and petal width.
 
@@ -183,6 +183,31 @@ colours of dots mark different classes
 
 # 5. Summary and Conclusions<a name="#5.-summary-and-conclusions"></a>
 
+The provided code performs analysis on the Iris dataset using the pandas library. Here's a summary of the work done:
+
+The code imports the necessary libraries: pandas, numpy, and matplotlib.
+
+The Iris dataset is read from a CSV file into a pandas DataFrame, with column names assigned.
+
+Information about the dataset is displayed using info() and describe() methods.
+
+The unique classes or species of Iris flowers in the dataset are identified using the unique() method.
+
+Various statistics are computed using the groupby() function and stored in variables, including counts, means, maximums, and minimums for each class of Iris plant.
+
+Summary statistics for each class of Iris plant are obtained using the describe() method on the GroupBy object.
+
+The analysis results are saved to a text file named "analysis.txt" using the write() method.
+
+Following the analysis, the code generates several visualizations:
+
+- Histograms of each variable (sepal length, sepal width, petal length, petal width) are saved as PNG files.
+- Scatter plots are created to visualize relationships between different pairs of variables: petal length vs. petal width, sepal length vs. sepal width, sepal length vs. petal width, and petal length vs. sepal width. Each scatter plot includes data points for the three classes of Iris plants, distinguished by color. The scatter plots are also saved as PNG files.
+
+
+Overall, the code performs exploratory data analysis on the Iris dataset, including descriptive statistics, group analysis, and visualization.
+
+
 
 
 # 6. References <a name="#6.-references"></a>
@@ -190,4 +215,5 @@ colours of dots mark different classes
 - Website: [Python 3 documentation](https://docs.python.org/3/index.html) Official Python 3 Documentation at <https://docs.python.org>
 - Website: [Getting Started with pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html) Official `pandas` tutorial  at <https://pandas.pydata.org>
 - Website: [DataCamp Data Manipulation with Pands](https://app.datacamp.com/learn/courses/data-manipulation-with-pandas) learning course at <https://app.datacamp.com/learn/courses/data-manipulation-with-pandas>
--
+
+- Website [wikipedia page about dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5) https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5
