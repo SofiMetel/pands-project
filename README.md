@@ -84,7 +84,7 @@ On the top of analysis.py I added all packages that I will work with.
  
 - [Pandas.pydata documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html) 
 - [Matplotlib documentation](https://matplotlib.org/index.html) 
-- [Nympy documentation](https://numpy.org/doc/)
+- [Numpy documentation](https://numpy.org/doc/)
 
 
 I used Pandas module to read dataset in csv format. 
@@ -173,13 +173,15 @@ Plots that are created shows :
 # 4.3. Scatter plots of each pair of variable
 <a name="4.3.-scatter-plots-of-each-variable"></a>
 
-colours of dots mark different classes 
-6. Scatter plot - Iris petal sizes
-7. Scatter plot - Iris sepal sizes
-8. Scatter plot - Iris sepal width\petal lenght 
-9. Scatter plot - Iris petal width\sepal lenght
 
 
+1. Scatter plot - Iris petal sizes
+2. Scatter plot - Iris sepal sizes
+3. Scatter plot - Iris sepal width\petal lenght 
+4. Scatter plot - Iris petal width\sepal lenght
+
+Also, different colours of dots mark different classes
+(Iris Setosa, Iris Versicolour, Iris Virginica)
 
 # 5. Summary and Conclusions<a name="#5.-summary-and-conclusions"></a>
 
@@ -214,6 +216,9 @@ Overall, the code performs exploratory data analysis on the Iris dataset, includ
 
 - Website: [Python 3 documentation](https://docs.python.org/3/index.html) Official Python 3 Documentation at <https://docs.python.org>
 - Website: [Getting Started with pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html) Official `pandas` tutorial  at <https://pandas.pydata.org>
+
+- Website: [Numpy Documentation ](https://numpy.org/doc/) https://numpy.org/doc/
+
 - Website: [DataCamp Data Manipulation with Pands](https://app.datacamp.com/learn/courses/data-manipulation-with-pandas) learning course at <https://app.datacamp.com/learn/courses/data-manipulation-with-pandas>
 
 - Website [wikipedia page about dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5) https://en.wikipedia.org/wiki/Iris_flower_data_set#cite_note-5
